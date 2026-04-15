@@ -1,27 +1,58 @@
 <h1 align="center">Hi 👋, I'm Anas Muhammed</h1>
-<h3 align="center">A Passionate Developer | Lifelong Learner | Tech Enthusiast</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anas-s-muhammed" alt="anas-s-muhammed" /></a> </p>
-
-- 🔭 I’m currently working on **Progressing from beginner to advanced Machine Learning projects**
-
-- 🌱 I’m currently learning **Machine Learning deeply (not just using it), including algorithms, statistics, and tools like Pandas, NumPy, and beginning TensorFlow/PyTorch**
-
-- 👯 I’m looking to collaborate on **Meaningful ML & Python projects — especially anything involving real datasets, problem-solving, or open-source contributions**
-
-- 🤝 I’m looking for help with **Model optimization, deployment (Docker/Cloud), and understanding how ML systems work in production**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/anas muhammed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anas muhammed" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Passionate+Developer;Lifelong+Learner;ML+Enthusiast" alt="Typing SVG" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anas-s-muhammed&theme=onedark&column=7" alt="anas-s-muhammed" /></a>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anas-s-muhammed&show_icons=true&locale=en&layout=compact" alt="anas-s-muhammed" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anas-s-muhammed&show_icons=true&locale=en" alt="anas-s-muhammed" /></p>
+### 🚀 About Me
+- 🔭 I’m currently working on **Progressing from beginner to advanced Machine Learning projects**
+- 🌱 I’m currently learning **Machine Learning deeply**, specifically algorithms, statistics, and tools like **Pandas, NumPy, and TensorFlow/PyTorch**
+- 👯 I’m looking to collaborate on **Meaningful ML & Python projects** involving real datasets and open-source contributions
+- 🤝 I’m looking for help with **Model optimization, deployment (Docker/Cloud)**, and production ML systems
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=anas-s-muhammed&" alt="anas-s-muhammed" /></p>
+---
 
+### 🛠️ Languages and Tools
+**Data Science & Machine Learning**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-4479A1?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+**Development & Infrastructure**
+<p align="left">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" />
+</p>
+
+---
+
+### 📊 GitHub Statistics
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=anas-s-muhammed&show_icons=true&theme=visual_studio_dark&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=anas-s-muhammed&layout=compact&theme=visual_studio_dark&hide_border=true" />
+</p>
+<p align="center">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=anas-s-muhammed&theme=visual_studio_dark&hide_border=true" />
+</p>
+
+---
+
+### 📫 Connect with me:
+<p align="left">
+  <a href="https://linkedin.com/in/anas muhammed" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
