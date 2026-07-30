@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Anas Muhammed</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Passionate+Developer;Lifelong+Learner;ML+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Aspiring+Data+Engineer;Building+End-to-End+Data+Pipelines;SQL+%7C+Python+%7C+FastAPI+%7C+PostgreSQL" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,32 +10,51 @@
 ---
 
 ### 🚀 About Me
-- 🔭 I’m currently working on **Progressing from beginner to advanced Machine Learning projects**
-- 🌱 I’m currently learning **Machine Learning deeply**, specifically algorithms, statistics, and tools like **Pandas, NumPy, and TensorFlow/PyTorch**
-- 👯 I’m looking to collaborate on **Meaningful ML & Python projects** involving real datasets and open-source contributions
-- 🤝 I’m looking for help with **Model optimization, deployment (Docker/Cloud)**, and production ML systems
 
+- 🎯 2nd-year CS student focused on **Data Engineering** — I design and build systems that move, store, and transform data, not just models that consume it
+- 🔭 Currently building **end-to-end data pipelines**: ingestion → orchestration → transformation → storage
+- 🌱 Deepening my skills in **SQL optimization, data modeling, Apache Airflow, dbt, and AWS**
+- 💼 Leading **TensorOrbit**, a 40+ member AI/ML student club — building technical programs and mentoring peers
+- 👯 Open to collaborating on **data pipeline, backend, and API projects** with real datasets
+- 🤝 Looking to connect with people working in **Data Engineering / Backend roles**, especially in the Gulf tech market
 
 ---
 
-### 🛠️ Languages and Tools
-**Data Science & Machine Learning**
+### 🧱 Featured Projects
+
+**[SENTINEL](https://github.com/anas-s-muhammed/REPO_LINK)** — Space incident tracking system with a normalized PostgreSQL schema and a FastAPI + Node.js/Express service layer.
+
+**[Weather Pipeline](https://github.com/anas-s-muhammed/REPO_LINK)** — End-to-end weather data pipeline with a custom HTML/CSS/JS dashboard for visualization.
+
+*(→ replace REPO_LINK with your actual repo names, and update these two lines once each repo has a proper README)*
+
+---
+
+### 🛠️ Core Stack
+
+**Data Engineering**
 <p align="left">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-4479A1?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-**Development & Infrastructure**
+**Backend & Infrastructure**
 <p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+**Also comfortable with**
+<p align="left">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" />
 </p>
 
 ---
@@ -51,9 +70,9 @@
 
 ---
 
-### 📫 Connect with me:
+### 📫 Connect with me
 <p align="left">
-  <a href="https://linkedin.com/in/anas muhammed" target="blank">
+  <a href="https://linkedin.com/in/anas-muhammed" target="blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
