@@ -14,19 +14,9 @@
 - 🎯 2nd-year CS student focused on **Data Engineering** — I design and build systems that move, store, and transform data, not just models that consume it
 - 🔭 Currently building **end-to-end data pipelines**: ingestion → orchestration → transformation → storage
 - 🌱 Deepening my skills in **SQL optimization, data modeling, Apache Airflow, dbt, and AWS**
-- 💼 Leading **TensorOrbit**, a 40+ member AI/ML student club — building technical programs and mentoring peers
+- 💼 Leading **TensorOrbit**, a data science student club — building technical programs and mentoring peers
 - 👯 Open to collaborating on **data pipeline, backend, and API projects** with real datasets
-- 🤝 Looking to connect with people working in **Data Engineering / Backend roles**, especially in the Gulf tech market
-
----
-
-### 🧱 Featured Projects
-
-**[SENTINEL](https://github.com/anas-s-muhammed/REPO_LINK)** — Space incident tracking system with a normalized PostgreSQL schema and a FastAPI + Node.js/Express service layer.
-
-**[Weather Pipeline](https://github.com/anas-s-muhammed/REPO_LINK)** — End-to-end weather data pipeline with a custom HTML/CSS/JS dashboard for visualization.
-
-*(→ replace REPO_LINK with your actual repo names, and update these two lines once each repo has a proper README)*
+- 🤝 Looking to connect with people working in **Data Engineering / Backend roles**
 
 ---
 
