@@ -33,8 +33,8 @@
     <circle cx="930" cy="155" r="25" stroke-opacity=".28"><animate attributeName="r" values="25;32;25" dur="3.2s" repeatCount="indefinite"/></circle>
   </g>
   <text x="92" y="116" fill="#A7F3D0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="3">HELLO, I'M ANAS</text>
-  <text x="88" y="174" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="48" font-weight="800">Data Analyst &amp; AI Builder</text>
-  <text x="92" y="214" fill="#B8C4E5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="19">Turning messy data into clear, useful decisions.</text>
+  <text x="88" y="174" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="800">Data Analyst &amp; Engineer</text>
+  <text x="92" y="214" fill="#B8C4E5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="19">Building pipelines, insights, and practical ML solutions.</text>
   <rect x="92" y="244" width="184" height="3" rx="2" fill="url(#accent)"><animate attributeName="width" values="184;250;184" dur="4s" repeatCount="indefinite"/></rect>
-  <text x="92" y="278" fill="#8793B5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">DATA ANALYSIS  •  SQL  •  PYTHON  •  VISUALIZATION</text>
+  <text x="92" y="278" fill="#8793B5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">ANALYTICS  •  DATA ENGINEERING  •  SQL  •  ML</text>
 </svg>
