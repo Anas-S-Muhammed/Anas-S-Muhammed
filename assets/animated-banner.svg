@@ -1,0 +1,40 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.5" stop-color="#111A3A"/>
+      <stop offset="1" stop-color="#24113D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="60" x2="1040" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6BE"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#8B9BC4" stroke-opacity=".10"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M0 245C180 185 230 305 430 235C615 170 694 185 824 220C965 258 1064 164 1200 108" stroke="url(#accent)" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M0 270C180 210 230 330 430 260C615 195 694 210 824 245C965 283 1064 189 1200 133" stroke="url(#accent)" stroke-opacity=".12" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle cx="168" cy="86" r="4" fill="#63E6BE"><animate attributeName="cy" values="86;66;86" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1035" cy="72" r="3" fill="#C084FC"><animate attributeName="cy" values="72;98;72" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="932" cy="250" r="5" fill="#60A5FA"><animate attributeName="r" values="5;8;5" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-opacity=".48">
+    <ellipse cx="930" cy="155" rx="132" ry="52" transform="rotate(-18 930 155)"><animateTransform attributeName="transform" type="rotate" from="-18 930 155" to="342 930 155" dur="18s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="930" cy="155" rx="132" ry="52" transform="rotate(55 930 155)"><animateTransform attributeName="transform" type="rotate" from="55 930 155" to="415 930 155" dur="24s" repeatCount="indefinite"/></ellipse>
+    <circle cx="930" cy="155" r="25" stroke-opacity=".28"><animate attributeName="r" values="25;32;25" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="92" y="116" fill="#A7F3D0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="3">HELLO, I'M ANAS</text>
+  <text x="88" y="174" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="48" font-weight="800">Data &amp; AI Builder</text>
+  <text x="92" y="214" fill="#B8C4E5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="19">Turning messy data into clear, useful products.</text>
+  <rect x="92" y="244" width="184" height="3" rx="2" fill="url(#accent)"><animate attributeName="width" values="184;250;184" dur="4s" repeatCount="indefinite"/></rect>
+  <text x="92" y="278" fill="#8793B5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">PYTHON  •  ML  •  ANALYTICS  •  PRODUCT THINKING</text>
+</svg>
