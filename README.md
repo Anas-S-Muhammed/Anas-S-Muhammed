@@ -8,15 +8,15 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=63E6BE&center=true&vCenter=true&width=760&lines=Building+practical+ML+systems;Exploring+data+engineering+end-to-end;Learning+in+public%2C+one+project+at+a+time" alt="Animated typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=63E6BE&center=true&vCenter=true&width=760&lines=Data+Analyst+turning+data+into+insights;Exploring+data+analysis+end-to-end;Learning+in+public%2C+one+project+at+a+time" alt="Animated typing introduction" />
 </p>
 
 ## About me
 
-I’m **Anas muhammed**, a computer science student and hands-on builder based in **Malaysia**. I enjoy taking a problem from raw data to a useful outcome: exploring the data, designing a model or pipeline, validating the result, and packaging the work so other people can understand and use it.
+I’m **Anas muhammed**, a **Data Analyst** and computer science student based in **Malaysia**. I turn raw, messy data into clear insights through exploration, cleaning, visualization, statistical thinking, and practical machine learning.
 
-- **Currently exploring:** machine learning, data engineering, analytics, and product-minded software development
-- **I care about:** clean experiments, explainable results, thoughtful interfaces, and shipping consistently
+- **Currently exploring:** data analysis, business intelligence, machine learning, and data engineering
+- **I care about:** accurate analysis, meaningful visualizations, explainable results, and actionable insights
 - **Working style:** curious, iterative, collaborative, and always learning by building
 - **Open to:** meaningful collaborations, research ideas, and projects that create measurable value
 
@@ -30,9 +30,12 @@ I’m **Anas muhammed**, a computer science student and hands-on builder based i
 <tr>
 <td width="50%" valign="top">
 
-### Data & machine learning
+### Data analysis & machine learning
 
-- Exploratory data analysis and visualization
+- Exploratory data analysis and data storytelling
+- Data cleaning, preprocessing, and quality checks
+- SQL querying, aggregation, and relational data analysis
+- Dashboards, reports, and decision-focused visualizations
 - Classification, regression, clustering, and NLP
 - PyTorch and scikit-learn experiments
 - Feature engineering and model evaluation
@@ -45,7 +48,7 @@ I’m **Anas muhammed**, a computer science student and hands-on builder based i
 
 - Python automation and reusable workflows
 - ETL pipelines and data cleaning
-- SQL analysis and relational data modeling
+- Relational data modeling and analytics workflows
 - Git-based collaboration and documentation
 - Practical web and product prototypes
 
