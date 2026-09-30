@@ -1,40 +1,129 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#08111F"/>
-      <stop offset="0.5" stop-color="#111A3A"/>
-      <stop offset="1" stop-color="#24113D"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111E"/>
+      <stop offset="0.55" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#140F29"/>
     </linearGradient>
-    <linearGradient id="accent" x1="120" y1="60" x2="1040" y2="270" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#63E6BE"/>
-      <stop offset="0.48" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#C084FC"/>
+    <linearGradient id="accent" x1="80" y1="90" x2="980" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64F0A9"/>
+      <stop offset="0.55" stop-color="#70B8FF"/>
+      <stop offset="1" stop-color="#A8B8FF"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#8B9BC4" stroke-opacity=".10"/>
+    <linearGradient id="nameGrad" x1="90" y1="90" x2="560" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.58" stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#79BEFF"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#93A8D4" stroke-opacity="0.065"/>
     </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="nameClip">
+      <rect x="90" y="94" width="0" height="62">
+        <animate attributeName="width" values="0;520;520" keyTimes="0;0.28;1" dur="2.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="roleClip">
+      <rect x="91" y="162" width="0" height="36">
+        <animate attributeName="width" values="0;585;585" keyTimes="0;0.42;1" dur="2.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <path d="M0 245C180 185 230 305 430 235C615 170 694 185 824 220C965 258 1064 164 1200 108" stroke="url(#accent)" stroke-opacity=".22" stroke-width="2"/>
-  <path d="M0 270C180 210 230 330 430 260C615 195 694 210 824 245C965 283 1064 189 1200 133" stroke="url(#accent)" stroke-opacity=".12" stroke-width="2"/>
-  <g filter="url(#glow)">
-    <circle cx="168" cy="86" r="4" fill="#63E6BE"><animate attributeName="cy" values="86;66;86" dur="3.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1035" cy="72" r="3" fill="#C084FC"><animate attributeName="cy" values="72;98;72" dur="4.4s" repeatCount="indefinite"/></circle>
-    <circle cx="932" cy="250" r="5" fill="#60A5FA"><animate attributeName="r" values="5;8;5" dur="2.6s" repeatCount="indefinite"/></circle>
+
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect x="-160" y="0" width="120" height="340" fill="url(#accent)" opacity="0.045">
+    <animate attributeName="x" values="-180;1260" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <g filter="url(#softGlow)">
+    <circle cx="165" cy="72" r="2.4" fill="#64F0A9"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="648" cy="44" r="1.8" fill="#70B8FF"><animate attributeName="cy" values="44;36;44" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1098" cy="88" r="2.2" fill="#A8B8FF"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1032" cy="286" r="2" fill="#64F0A9"><animate attributeName="cx" values="1032;1048;1032" dur="4.6s" repeatCount="indefinite"/></circle>
   </g>
-  <g fill="none" stroke="url(#accent)" stroke-opacity=".48">
-    <ellipse cx="930" cy="155" rx="132" ry="52" transform="rotate(-18 930 155)"><animateTransform attributeName="transform" type="rotate" from="-18 930 155" to="342 930 155" dur="18s" repeatCount="indefinite"/></ellipse>
-    <ellipse cx="930" cy="155" rx="132" ry="52" transform="rotate(55 930 155)"><animateTransform attributeName="transform" type="rotate" from="55 930 155" to="415 930 155" dur="24s" repeatCount="indefinite"/></ellipse>
-    <circle cx="930" cy="155" r="25" stroke-opacity=".28"><animate attributeName="r" values="25;32;25" dur="3.2s" repeatCount="indefinite"/></circle>
+
+  <text x="92" y="68" fill="#64F0A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="1">anas@github:~$ whoami</text>
+  <rect x="301" y="53" width="8" height="17" rx="1.2" fill="#64F0A9">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.46;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#nameClip)">
+    <text x="90" y="146" fill="url(#nameGrad)" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="64" font-weight="800" letter-spacing="1.2">ANAS S. MUHAMMED</text>
   </g>
-  <text x="92" y="116" fill="#A7F3D0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="3">HELLO, I'M ANAS</text>
-  <text x="88" y="174" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="800">Data Analyst &amp; Engineer</text>
-  <text x="92" y="214" fill="#B8C4E5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="19">Building pipelines, insights, and practical ML solutions.</text>
-  <rect x="92" y="244" width="184" height="3" rx="2" fill="url(#accent)"><animate attributeName="width" values="184;250;184" dur="4s" repeatCount="indefinite"/></rect>
-  <text x="92" y="278" fill="#8793B5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">ANALYTICS  •  DATA ENGINEERING  •  SQL  •  ML</text>
+
+  <g clip-path="url(#roleClip)">
+    <text x="92" y="193" fill="#C7D3EA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" letter-spacing="0.5">Data Analyst | Data Engineer | Applied Machine Learning</text>
+  </g>
+
+  <text x="92" y="245" fill="#64F0A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">→ currently building:</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24">
+    <text x="92" y="291" fill="#FFFFFF" opacity="1">Smart Traffic Analytics<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.20;0.25;1" dur="16s" repeatCount="indefinite"/></text>
+    <text x="92" y="291" fill="#FFFFFF" opacity="0">End-to-End ETL Pipeline<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.20;0.25;0.45;0.50;1" dur="16s" repeatCount="indefinite"/></text>
+    <text x="92" y="291" fill="#FFFFFF" opacity="0">Movie Recommender<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.50;0.70;0.75;1" dur="16s" repeatCount="indefinite"/></text>
+    <text x="92" y="291" fill="#FFFFFF" opacity="0">E-Commerce Analytics<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.70;0.75;1" dur="16s" repeatCount="indefinite"/></text>
+  </g>
+  <rect x="404" y="270" width="9" height="24" rx="1" fill="#CFE7FF">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.46;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(92 315)">
+    <rect width="470" height="3" rx="1.5" fill="#1D324D"/>
+    <rect width="0" height="3" rx="1.5" fill="url(#accent)">
+      <animate attributeName="width" values="0;470;470" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="92" y="334" fill="#7E91B3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.5">PYTHON • SQL • DATA • ML • VISUALIZATION • ENGINEERING</text>
+
+  <g transform="translate(662 52)">
+    <rect width="470" height="236" rx="18" fill="#07111E" stroke="#223754"/>
+    <rect width="470" height="40" rx="18" fill="#0A1628"/>
+    <circle cx="22" cy="20" r="6" fill="#FF5F57"/>
+    <circle cx="46" cy="20" r="6" fill="#FEBC2E"/>
+    <circle cx="70" cy="20" r="6" fill="#28C840"/>
+    <text x="106" y="26" fill="#AAB7D2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">analysis.py</text>
+
+    <g transform="translate(0 40)">
+      <line x1="342" y1="0" x2="342" y2="196" stroke="#1C304D"/>
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+        <rect x="12" y="16" width="316" height="24" fill="#12233A" opacity="0.65">
+          <animate attributeName="y" values="16;48;80;112;144;16" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <g fill="#62779C">
+          <text x="18" y="32">1</text><text x="18" y="64">2</text><text x="18" y="96">3</text>
+          <text x="18" y="128">4</text><text x="18" y="160">5</text><text x="18" y="192">6</text>
+        </g>
+        <text x="46" y="32"><tspan fill="#F47771">import</tspan><tspan fill="#DCE7F9"> pandas </tspan><tspan fill="#F47771">as</tspan><tspan fill="#8DD0FF"> pd</tspan></text>
+        <text x="46" y="64" fill="#DCE7F9">df = pd.read_csv(<tspan fill="#FFD66E">"traffic.csv"</tspan>)</text>
+        <text x="46" y="96" fill="#7084A8"># analyze traffic patterns</text>
+        <text x="46" y="128" fill="#DCE7F9">traffic = (</text>
+        <text x="76" y="160" fill="#DCE7F9">df.groupby(<tspan fill="#FFD66E">"hour"</tspan>)[<tspan fill="#FFD66E">"vehicle_count"</tspan>]</text>
+        <text x="76" y="192" fill="#DCE7F9">.mean().reset_index())</text>
+      </g>
+
+      <text x="364" y="28" fill="#66B6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">projects</text>
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+        <rect x="354" y="38" width="104" height="20" rx="8" fill="#0F2137" stroke="#1B385D">
+          <animate attributeName="y" values="38;68;98;128;38" dur="16s" repeatCount="indefinite"/>
+        </rect>
+        <text x="366" y="52" fill="#64F0A9">smart-traffic</text>
+        <text x="366" y="82" fill="#92A4C5">etl-pipeline</text>
+        <text x="366" y="112" fill="#92A4C5">recommender</text>
+        <text x="366" y="142" fill="#92A4C5">ecommerce</text>
+
+        <text x="364" y="178" fill="#66B6FF">focus</text>
+        <text x="366" y="200" fill="#AAB7D2">data analysis</text>
+        <text x="366" y="222" fill="#AAB7D2">data engineering</text>
+        <text x="366" y="244" fill="#AAB7D2">machine learning</text>
+      </g>
+    </g>
+  </g>
 </svg>
