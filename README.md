@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/animated-banner.svg" alt="Anas — Data Analyst and Engineer" width="100%" />
+  <img src="assets/animated-banner.svg?v=20260930-1" alt="Anas — Data Analyst and Engineer" width="100%" />
 </p>
 
 # Anas S. Muhammed
