@@ -1,0 +1,58 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111E"/>
+      <stop offset="0.48" stop-color="#0B1731"/>
+      <stop offset="1" stop-color="#1B1034"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="30" x2="1110" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6BE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="760" y1="70" x2="1120" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D38" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#0A1327" stop-opacity=".96"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="#8EA3C8" stroke-opacity=".07"/>
+    </pattern>
+    <clipPath id="titleReveal"><rect x="88" y="118" width="0" height="70"><animate attributeName="width" values="0;620;620" keyTimes="0;.35;1" dur="2.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
+  <rect x="0" y="0" width="120" height="340" fill="url(#accent)" opacity=".035"><animate attributeName="x" values="-140;1220" dur="9s" repeatCount="indefinite"/></rect>
+  <g opacity=".55">
+    <circle cx="160" cy="74" r="2.6" fill="#63E6BE"><animate attributeName="opacity" values=".25;1;.25" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="678" cy="55" r="2" fill="#60A5FA"><animate attributeName="cy" values="55;44;55" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1132" cy="86" r="2.4" fill="#C084FC"><animate attributeName="opacity" values=".2;.9;.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="310" r="2" fill="#63E6BE"><animate attributeName="cx" values="1080;1100;1080" dur="5.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="90" y="66" fill="#A7F3D0" font-size="15" letter-spacing="1.4">anas@github:~$ whoami</text>
+    <rect x="302" y="51" width="9" height="18" rx="1" fill="#63E6BE"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.45;.46;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g clip-path="url(#titleReveal)"><text x="88" y="164" fill="white" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="48" font-weight="800">ANAS S. MUHAMMED</text></g>
+  <text x="90" y="203" fill="#B9C7E5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">Data Analyst • Data Engineer • Applied ML</text>
+  <text x="90" y="238" fill="#8191B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">BUILDING WITH DATA — pipelines → models → decisions</text>
+  <g transform="translate(90 263)"><rect width="430" height="44" rx="12" fill="#0A1426" stroke="#233B61"/><circle cx="20" cy="22" r="5" fill="#63E6BE" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2.3s" repeatCount="indefinite"/></circle><text x="36" y="27" fill="#A9B7D6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">status: shipping practical data systems</text></g>
+  <rect x="726" y="42" width="420" height="256" rx="20" fill="url(#panel)" stroke="#263B62" stroke-opacity=".85"/>
+  <text x="754" y="72" fill="#7F8EAF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.2">LIVE DATA FLOW</text>
+  <circle cx="1111" cy="67" r="4" fill="#63E6BE"><animate attributeName="opacity" values=".3;1;.3" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="1061" y="72" fill="#8FA2C6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">ONLINE</text>
+  <g stroke="#33527E" stroke-width="2" stroke-linecap="round"><path d="M782 128 H862"/><path d="M912 128 H994"/><path d="M1036 148 V206"/><path d="M1004 230 H908"/><path d="M858 230 H780"/></g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" text-anchor="middle">
+    <g><rect x="752" y="105" width="62" height="46" rx="12" fill="#0E1B32" stroke="#2A6A62"/><circle cx="783" cy="120" r="4" fill="#63E6BE"/><text x="783" y="141" fill="#B9C7E5">SOURCE</text></g>
+    <g><rect x="862" y="105" width="62" height="46" rx="12" fill="#0E1B32" stroke="#2E5D8C"/><circle cx="893" cy="120" r="4" fill="#60A5FA"/><text x="893" y="141" fill="#B9C7E5">PYTHON</text></g>
+    <g><rect x="994" y="105" width="84" height="46" rx="12" fill="#0E1B32" stroke="#56628E"/><circle cx="1036" cy="120" r="4" fill="#93A7FF"/><text x="1036" y="141" fill="#B9C7E5">SQL</text></g>
+    <g><rect x="1004" y="207" width="64" height="46" rx="12" fill="#0E1B32" stroke="#6A4F8A"/><circle cx="1036" cy="222" r="4" fill="#C084FC"/><text x="1036" y="243" fill="#B9C7E5">MODEL</text></g>
+    <g><rect x="850" y="207" width="72" height="46" rx="12" fill="#0E1B32" stroke="#2C6A7D"/><circle cx="886" cy="222" r="4" fill="#60D5E8"/><text x="886" y="243" fill="#B9C7E5">INSIGHT</text></g>
+    <g><rect x="750" y="207" width="72" height="46" rx="12" fill="#0E1B32" stroke="#2A6A62"/><circle cx="786" cy="222" r="4" fill="#63E6BE"/><text x="786" y="243" fill="#B9C7E5">ACTION</text></g>
+  </g>
+  <g filter="url(#glow)"><circle r="5" fill="#63E6BE"><animateMotion dur="6s" repeatCount="indefinite" path="M783 128 H893 H1036 V230 H886 H786"/></circle><circle r="3.5" fill="#60A5FA" opacity=".85"><animateMotion begin="2s" dur="6s" repeatCount="indefinite" path="M783 128 H893 H1036 V230 H886 H786"/></circle></g>
+  <g transform="translate(754 267)"><path d="M0 0 H360" stroke="#223756"/><path d="M0 -9 L34 -13 L66 -8 L102 -22 L136 -16 L171 -34 L208 -29 L244 -46 L281 -39 L320 -57 L360 -50" stroke="url(#accent)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-dasharray="430" stroke-dashoffset="430"><animate attributeName="stroke-dashoffset" values="430;0;0" keyTimes="0;.55;1" dur="5s" repeatCount="indefinite"/></path></g>
+</svg>
