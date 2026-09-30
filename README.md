@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/animated-banner.svg?v=20260930-1" alt="Anas — Data Analyst and Engineer" width="100%" />
+  <img src="assets/profile-banner-og.svg" alt="Anas — Data Analyst and Engineer" width="100%" />
 </p>
 
 # Anas S. Muhammed
@@ -101,7 +101,7 @@ This is a profile repository rather than an application repository. Its tracked 
 
 ## How the profile works
 
-GitHub renders `README.md` on the repository landing page. The README references `assets/animated-banner.svg` using a repository-relative path, so the banner is served directly from this repository. Project entries link to their own repositories, where each project’s implementation and project-specific instructions live.
+GitHub renders `README.md` on the repository landing page. The README references `assets/profile-banner-og.svg` using a repository-relative path, so the banner is served directly from this repository. Project entries link to their own repositories, where each project’s implementation and project-specific instructions live.
 
 No package manifest, dependency lockfile, executable entry point, dataset, notebook, or deployment configuration is present in this repository. Consequently, there is no local application setup or model-training command to run here.
 
