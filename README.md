@@ -120,11 +120,8 @@ The profile is currently a curated portfolio overview. It provides a clear profe
 
 If you are working on an analytics, data-engineering, or machine-learning project, please open an issue, start a discussion, or connect through [GitHub](https://github.com/Anas-S-Muhammed).
 
-<p align="center"><i>Build with intent. Learn in public. Improve every iteration.</i></p>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anas-S-Muhammed&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=63E6BE&text_color=B8C4E5&icon_color=60A5FA" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anas-S-Muhammed&layout=compact&hide_border=true&langs_count=8&theme=transparent&title_color=63E6BE&text_color=B8C4E5" alt="Top languages" />
+  <img src="koi/koi.gif" width="256" alt="Animated asagi koi reflecting my GitHub activity" />
 </p>
 
 <p align="center">
