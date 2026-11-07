@@ -95,6 +95,8 @@ This repository is the profile landing page for **Anas S. Muhammed**. It uses a 
   <img src="assets/certifications/data-analyst-associate.png" height="180" alt="Data Analyst Associate certification badge" />
   &nbsp;&nbsp;
   <img src="assets/certifications/entry-level-python-programmer.png" height="180" alt="OpenEDG Python Institute Certified Entry-Level Python Programmer badge" />
+  &nbsp;&nbsp;
+  <img src="assets/certifications/data-engineer-associate.png" height="180" alt="Data Engineer Associate certification badge" />
 </p>
 
 ## Repository structure
