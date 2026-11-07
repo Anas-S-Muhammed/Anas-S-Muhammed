@@ -108,23 +108,6 @@ This is a profile repository rather than an application repository. Its tracked 
     └── animated-banner.svg   # Custom animated profile banner
 ```
 
-## How the profile works
-
-GitHub renders `README.md` on the repository landing page. The README references `assets/profile-banner-og.svg` using a repository-relative path, so the banner is served directly from this repository. Project entries link to their own repositories, where each project’s implementation and project-specific instructions live.
-
-No package manifest, dependency lockfile, executable entry point, dataset, notebook, or deployment configuration is present in this repository. Consequently, there is no local application setup or model-training command to run here.
-
-## Current status and results
-
-The profile is currently a curated portfolio overview. It provides a clear professional focus and links to representative analytics, data-engineering, and applied-ML repositories. The repository itself does not contain benchmark metrics, model outputs, a hosted application, or an automated test suite; results and reproducibility details should be reviewed in the linked project repositories.
-
-## Future improvements
-
-- Add project-level links to reproducible notebooks, demos, or reports when those artifacts are available.
-- Add concise outcome or evaluation summaries for featured projects when the source repositories document them.
-- Keep the featured-project list synchronized with the strongest current portfolio work.
-- Add a project index when the portfolio grows enough to benefit from filtering by analytics, engineering, or ML focus.
-
 ## Connect
 
 If you are working on an analytics, data-engineering, or machine-learning project, please open an issue, start a discussion, or connect through [GitHub](https://github.com/Anas-S-Muhammed).
