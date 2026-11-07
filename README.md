@@ -88,6 +88,15 @@ This repository is the profile landing page for **Anas S. Muhammed**. It uses a 
 
 </div>
 
+
+## Certifications & Badges
+
+<p align="center">
+  <img src="assets/certifications/data-analyst-associate.png" height="180" alt="Data Analyst Associate certification badge" />
+  &nbsp;&nbsp;
+  <img src="assets/certifications/entry-level-python-programmer.png" height="180" alt="OpenEDG Python Institute Certified Entry-Level Python Programmer badge" />
+</p>
+
 ## Repository structure
 
 This is a profile repository rather than an application repository. Its tracked content is intentionally small:
